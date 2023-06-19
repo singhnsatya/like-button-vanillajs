@@ -1,0 +1,38 @@
+.container {
+	padding: 10px;
+	position: relative;
+}
+
+.like-button {
+	background-color: white;
+	border-radius: 25px;
+	font-size: 20px;
+	padding: 8px 8px 8px 8px;
+	color: grey;
+	justify-content: space-between;
+	font-weight: bolder;
+
+	/* mention solid below else border does not looks properly */
+	border: 3px solid;
+}
+
+.like-button:hover {
+	border-color: red;
+	color: red;
+}
+
+.like-button.clicked {
+	background-color: red;
+	border-color: red;
+	color: white;
+}
+
+.like-button span i {
+	height: 20px;
+	padding-left: 8px;
+}
+
+.like-button span:nth-child(2) {
+	padding-left: 8px;
+	padding-right: 6px;
+}
